@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="/Css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <section class="nav-bar">
+            <h1><a href="#sobre-mim">Luiz Coimbra</a></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="#sobre-mim">Projetos</a></li>
+                    <li><a href="#competencias">Competências</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <section class="sobre-mim" id="sobre-mim">
+        <img src="/assets/eu1.png" alt="Luiz Coimbra">
+
+        <div class="texto-sm">
+            <h1>Sobre mim</h1>
+
+            <p>Olá, sou formado em Análise e Desenvolvimento de Sistemas, onde adquiri
+                especialização em redes de computadores, Java, Python, Banco de dados, lógica de programação e etc. Meu
+                objetivo é integrar essas competências para desenvolver soluções de backend e frontend inovadoras e
+                fortalecer ainda mais minha base técnica em desenvolvimento de software. Ficou interessado? vá até a
+                sessão de contato e me envie uma mensagem.</p>
+        </div>
+    </section>
+
+    <section class="competencias" id="competencias">
+        <h1>COMPETÊNCIAS</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+
+                <h2>Linguagens de programação</h2>
+
+                <div class="icons">
+                    <img src="/assets/js.svg" alt="JavaScript">
+                    <img src="/assets/c.svg" alt="C">
+                    <img src="/assets/py.svg" alt="Python">
+                    <img src="/assets/java.svg" alt="Java">
+                </div>
+            </div>
+
+
+            <div class="box">
+
+                <h2>Idiomas</h2>
+
+                <div class="icons">
+
+                    <img src="/assets/br.svg" alt="Bandeira do Brasil" width="48" height="32">
+                    <img src="/assets/usa.svg" alt="Bandeira dos EUA" width="48" height="32">
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contato" id="contato">
+        <h1>Entre em contato</h1>
+
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+    </section>
+
+    <footer>
+        <p>Feito por: Luiz Coimbra</p>
+    </footer>
+
+</body>
+
+</html>
