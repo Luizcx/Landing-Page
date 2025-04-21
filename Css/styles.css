@@ -219,3 +219,96 @@ footer{
     padding: 10px;
     text-align: center;
 }
+
+@media (max-width: 800px){
+
+
+    .nav-bar{
+        flex-direction: column;
+        padding: 10px 5px;
+    }
+    .sobre-mim{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .sobre-mim img{
+        width: 70%;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    .texto-sm h1{
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    .texto-sm p{
+        font-size: 18px;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .competencias{
+        text-align: center;
+        padding: 3rem 2rem;
+    }
+
+    .competencias h1{
+        font-size: 1.8rem;
+    }
+
+    .competencias h2{
+        font-size: 1.5rem;
+    }
+
+    .box-container{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .box{
+        padding: 1.5rem;
+        width: 90%;
+        margin: 0;
+    }
+
+    .icons img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .contato{
+        width: 90%;
+        padding: 3rem 2rem;
+    }
+
+    .contato h1{
+        font-size: 1.8rem;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 1.4rem;
+        align-items: center;
+    }
+
+    label {
+        font-size: 1.4rem;
+    }
+
+    input, textarea {
+        width: 90%; 
+    }
+
+    button {
+        width: 90%; 
+        padding: 12px;
+        font-size: 1.2rem;
+    }
+}
